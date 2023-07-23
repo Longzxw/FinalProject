@@ -1,0 +1,154 @@
+
+/* pc */
+@media(min-width:1024px){
+  
+}
+ 
+/* tablet */
+@media(max-width:740px) and (max-width:1023){
+  
+}
+
+/* mobile */
+@media(max-width:740px){
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        margin-right: 13px;
+        background-color: #dadada;
+        border-radius: 10px;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute !important;
+        margin: 40px 100px 0 140px !important;
+    }
+    .navbar {
+        --bs-navbar-toggler-font-size: 1.0rem !important;
+    }
+    .btn-group>.btn {
+        position: relative !important;
+        flex: 0 1 auto !important;
+        padding: 8px !important;
+      
+    }
+    #header{
+        overflow: hidden;
+        
+    }
+    #header .seacrh-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    .btn-outline-success {
+        margin-right: 19px;}
+    .nav-link{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .form-control {
+        margin: auto;}
+    #nav .subnave {
+        position: initial;
+        background-color:#333;
+    }
+    #nav .subnave a{
+        color: white;
+        padding: 5px 45px;
+    }
+    #nav{
+            display: block;
+        }
+    #nav >li{
+            display:block;
+        }
+    #nav li a{
+        padding: 1px 25px;
+    }
+    #nav > li:first-child{
+            display: inline-block;
+        }
+        .nav-mobile{
+            z-index: 1;
+            display: flex;
+        }
+        .nav-mobile-bottom{
+            position: fixed;
+            z-index: 1;
+           }
+    #content .member-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .content-left-scroll {
+        position: initial;
+        }
+    .content-right-scroll {
+        width: 100%;
+        height: auto;
+        padding-top: 65px;
+        margin-left: 0;
+        padding: 60px 80px 80px 80px;  
+        background-color:  #f4f7fc;    
+        }
+    .place-buy-btn {
+        padding:initial;
+        width: 100%;
+        height: 45px;
+    }
+    .place-body {
+     padding: 16px 16px 20px 16px; 
+    }
+    .ticket-list {
+        width: 93%;
+    }
+    .place-item {
+        width: 100%;
+    }
+    .contact{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .contact-information{
+        width: 100%;
+        padding-left: 0;
+
+    }
+    .contact-input{
+        width: 100%;
+        align-items: initial;
+    }
+    .top-input{
+        width: 100%;
+    }
+    .bottom-input{
+        width: 100%;
+    }
+    #contact-button{
+        align-self: flex-end;
+    }
+}
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-collapse {
+    display: flex!important;
+    justify-content: space-between;
+    padding-right: 10px;
+}}
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    margin-top: 40px;
+    margin-left: 20px;
+}}
+.form-control{
+   
+}
+@media (min-width: 992px){
+    
+.my-lg-0 {
+    display: flex;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+}
